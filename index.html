@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изменение элементов страницы</title>
+    <!-- Подключаем файл стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Заголовок, который мы будем изменять -->
+        <h1 id="mainHeading">Привет, мир!</h1>
+
+        <!-- Поле ввода для изменения текста -->
+        <label for="textInput">Введите новый текст:</label>
+        <input type="text" id="textInput" placeholder="Введите текст">
+        <button id="changeTextButton">Изменить текст</button>
+
+        <!-- Поле ввода для изменения цвета текста -->
+        <label for="colorInput">Введите цвет (например, red, blue, green):</label>
+        <input type="text" id="colorInput" placeholder="Введите цвет">
+        <button id="changeColorButton">Изменить цвет</button>
+
+        <!-- Кнопка для скрытия/показа заголовка -->
+        <button id="toggleVisibilityButton">Скрыть/Показать заголовок</button>
+    </div>
+
+    <!-- Подключаем файл JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
